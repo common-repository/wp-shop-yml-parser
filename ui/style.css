@@ -1,0 +1,96 @@
+/*
+ *styles for wpshop yml parser
+ */
+
+.col50  {
+	float: left;
+    width: 50%;
+    padding: 20px 0px;
+    box-sizing: border-box;
+}
+
+#parser_shadow_window {
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	z-index: 1000;
+	opacity: 0.7;
+}
+
+#parser_background_message {
+	width: 100%;
+	z-index: 1001;
+	position: fixed
+}
+
+#parser_background_message > div{
+	margin: 100px auto;
+	padding: 30px;
+	width: 400px;
+	height: 220px;
+	background-color: white;
+	text-align:center;
+	position: relative;
+}
+
+#parser_background_message #continueButton {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: gray;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	text-align: center;
+	line-height: 20px;
+	cursor: pointer;
+}
+
+.wp-core-ui .create_project_by_cats .button {
+	margin-bottom: 20px;
+}
+
+.feed_info  p  {
+	margin: 0px 0px 20px 0px;
+}
+
+.button_top_bar {
+	margin: 10px 30px 20px 0px;
+    display: block;
+    float: left;
+    font-size: 15px;
+    border: 1px solid;
+    padding: 10px 20px;
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button_top_bar:hover {
+	border-color: #000;
+	color: #555;
+}
+
+.status_raw,
+.status_analized,
+.status_parsed {
+	display: inline-block;
+    width: 20px;
+    height: 20px;
+	border-radius: 50%;
+}
+
+.status_raw {
+	background: gray;
+}
+
+.status_analized {
+	background: orange;
+}
+
+.status_parsed {
+	background: green;
+}
